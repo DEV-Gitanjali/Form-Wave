@@ -5,7 +5,7 @@
 }
 /* this code for styling the body */
 body{
-    background-color: steelblue;
+    background-color: rgb(83, 155, 214);
     color: #fff;
     font-family: 'Muli', sans-serif;
     display: flex;
@@ -19,7 +19,7 @@ body{
 
 /* styling for main container for form wave */
 .container{
-    background-color: rgb(96, 155, 234);
+    background-color: rgb(14, 58, 116);
     padding: 20px 40px;
     border-radius: 5px;
 
@@ -87,3 +87,10 @@ body{
 .form-control input:valid{
     border-bottom-color:lightblue ;
 }
+
+.form-control label {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    pointer-events: none;
+  }

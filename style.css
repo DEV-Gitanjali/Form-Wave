@@ -3,7 +3,7 @@
 * {
   box-sizing: border-box;
 }
-
+/* this code for styling the body */
 body{
     background-color: steelblue;
     color: #fff;
@@ -17,3 +17,14 @@ body{
     margin: 0;
 }
 
+.container{
+    background-color: rgba(0, 0,  0.4);
+    padding: 20px 40px;
+    border-radius: 5px;
+
+}
+
+.container h1{
+    text-align: center;
+    margin-bottom: 3;
+}

@@ -36,6 +36,31 @@ body{
     text-align: none;
     color: lightblue;
 }
+
+/* this code for btn styling */
+
+.btn{
+    
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+    background: lightblue;
+    padding: 15px;
+    font-family: inherit;
+    border: 0;
+    font-size: 16px;
+    border-radius: 5px;
+
+}
+
+/* this code for button active */
+.btn:focus{
+    outline: 0;
+}
+
+.btn:active{
+    transform: scale(0.98);
+}
 /* this styling for form controler */
 .form-control{
     position: relative;
